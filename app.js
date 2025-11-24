@@ -1,3 +1,9 @@
+import { promedio } from "./js/app1.js";
+import { validacion } from "./js/app2.js";
+import { tablaDeMultiplicar } from "./js/app3.js";
+import { impuestoTotal } from "./js/app4.js";
+import { buscarEnArreglo } from "./js/app5.js";
+
 const continuar = true
 
 while (continuar){
@@ -15,19 +21,19 @@ while (continuar){
             break;
 
         case 2:
-            cajero();
+            validacion();
             break;
 
         case 3:
-            factura();
+            tablaDeMultiplicar();
             break;
 
         case 4:
-            numeros();
+            impuestoTotal();
             break;
 
         case 5:
-            calculadora();
+            buscarEnArreglo();
             break;
 
         case 0:
