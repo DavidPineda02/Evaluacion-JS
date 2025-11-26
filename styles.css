@@ -1,5 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background: #fafcff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Alfa Slab One", serif;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+}
+
+.menu {
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu a {
+    display: block;
+    padding: 20px;
+    margin: 8px 0;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 40%, rgba(0, 162, 255, 1) 100%);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.5s;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.966);
+}
+
+.menu a:hover {
+    transition: 0.5s;
+    background: linear-gradient(90deg,rgba(0, 162, 255, 1) 0%, rgba(9, 9, 121, 1) 60%, rgba(2, 0, 36, 1) 100%);
 }
